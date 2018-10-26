@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-# url:                   https://<username>.github.io
+url:                   https://codeholic11.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -12,28 +12,26 @@
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-# baseurl:               ''
+baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  kr
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
+title:                 CodeHolic
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  나만의 지식 아카이브. 프로그래밍, 음악, 문학, 일상 등등..
 
 # A shorter description for the sidebar.
 tagline:               >
-  Open `_config.yml` to edit this text.
+  Challenge is worthwhile in itself. - Amelia Earhart
 
 # A list of keywords for your blog.
-keywords:              []
+keywords:              [프로그래밍, 깃허브 블로그, 지킬 테마, 클래식, 음악, 문학, C++, Python]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -42,25 +40,24 @@ logo:                  /assets/icons/icon.png
 author:
   # Used by `jekyll-feed`:
   name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  email:               dnwjdco1@naver.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
   © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
 # legal:
 #   - title:             Impress
 #     href:              /impress/
-#   - title:             Cookies Policy
-#     href:              /cookies-policy/
+   - title:             Cookies Policy
+     href:              /cookies-policy/
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
@@ -120,7 +117,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                happydevlife
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -174,7 +171,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
