@@ -24,11 +24,11 @@ title:                 CodeHolic
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  나만의 지식 아카이브. 프로그래밍, 음악, 문학, 일상 등등..
+  Challenge is worthwhile in itself. - Amelia Earhart
 
 # A shorter description for the sidebar.
 tagline:               >
-  Challenge is worthwhile in itself. - Amelia Earhart
+  나만의 지식 아카이브.
 
 # A list of keywords for your blog.
 keywords:              [프로그래밍, 깃허브 블로그, 지킬 테마, 클래식, 음악, 문학, C++, Python]
